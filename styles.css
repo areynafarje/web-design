@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#0FF4F4;
+    
+}
+body{
+    background-color: #1A1A2E;
+    color: #9D4EDD;
+    box-shadow: rgba(0,255,255,0.5);
+}
+.box{
+    width: 150px;
+    height:150px;
+    border: solid #303030 2px;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    transition: all ease-in-out 1s;
+}
+
+.grid {
+    display: grid; 
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    gap: 0;
+    margin: 50px;
+    align-items:center;
+    justify-content: center;
+}
+
+.x-color{
+    color:#E94560;
+}
+.o-color{
+    color:#0FBCF9;
+}
+button{
+    background-color:#1A1A2E;
+    color:#0FF4F4;
+}
+.turnMessage{
+    text-align: center;
+    background-color:#1A1A2E;
+    color:#0FF4F4;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid #7A5CFF;
+}
